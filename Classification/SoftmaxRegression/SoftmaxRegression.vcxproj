@@ -142,7 +142,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\Workspace\UAV\cv16-classification\SoftmaxRegression\SoftmaxRegression\ZBar;D:\Workspace\UAV\cv16-classification\SoftmaxRegression\SoftmaxRegression\OpenCV;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\ZBar;$(ProjectDir)\OpenCV;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

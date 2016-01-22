@@ -200,7 +200,8 @@ void Loader::run()
             int y = resultFile.value("Crop "+QString::number(i)+"/Y").toInt();
             QString desc = "" ;
             try {
-                targetList->addNewRow(folderPath+"/"+imagePath,name,coord,desc, x, y);
+                folderPath.replace('/', '\\');
+                targetList->addNewRow(folderPath+"\\"+imagePath,name,coord,desc, x, y);
             }
             catch (std::exception& e) {
                 return;

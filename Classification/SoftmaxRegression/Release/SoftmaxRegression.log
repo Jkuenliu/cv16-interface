@@ -1,0 +1,45 @@
+﻿  stdafx.cpp
+c:\users\kuenj\documents\github\cv16-interface\classification\softmaxregression\stdafx.h(37): warning C4005: 'INFINITY': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h(78): note: see previous definition of 'INFINITY'
+  BarcodeReader.cpp
+  ConvolutionalNeuralNetwork.cpp
+  FileManager.cpp
+  InputImage.cpp
+InputImage.cpp(64): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+InputImage.cpp(129): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+InputImage.cpp(167): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
+InputImage.cpp(177): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
+InputImage.cpp(190): warning C4101: 'e': unreferenced local variable
+  NeuralNetwork.cpp
+ConvolutionalNeuralNetwork.cpp(148): warning C4018: '<': signed/unsigned mismatch
+ConvolutionalNeuralNetwork.cpp(151): warning C4018: '<': signed/unsigned mismatch
+ConvolutionalNeuralNetwork.cpp(154): warning C4018: '<': signed/unsigned mismatch
+ConvolutionalNeuralNetwork.cpp(213): warning C4018: '<': signed/unsigned mismatch
+ConvolutionalNeuralNetwork.cpp(219): warning C4018: '<': signed/unsigned mismatch
+ConvolutionalNeuralNetwork.cpp(227): warning C4018: '<': signed/unsigned mismatch
+ConvolutionalNeuralNetwork.cpp(233): warning C4018: '<': signed/unsigned mismatch
+ConvolutionalNeuralNetwork.cpp(246): warning C4018: '<': signed/unsigned mismatch
+ConvolutionalNeuralNetwork.cpp(297): warning C4018: '<': signed/unsigned mismatch
+ConvolutionalNeuralNetwork.cpp(315): warning C4018: '<': signed/unsigned mismatch
+ConvolutionalNeuralNetwork.cpp(337): warning C4018: '<': signed/unsigned mismatch
+ConvolutionalNeuralNetwork.cpp(424): warning C4305: '=': truncation from 'double' to 'float'
+NeuralNetwork.cpp(12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+ConvolutionalNeuralNetwork.cpp(444): warning C4018: '<': signed/unsigned mismatch
+ConvolutionalNeuralNetwork.cpp(472): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+ConvolutionalNeuralNetwork.cpp(495): warning C4018: '<': signed/unsigned mismatch
+NeuralNetwork.cpp(93): warning C4305: '=': truncation from 'double' to 'float'
+  SoftmaxRegression.cpp
+NeuralNetwork.cpp(175): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+ConvolutionalNeuralNetwork.cpp(573): warning C4101: 'e': unreferenced local variable
+SoftmaxRegression.cpp(190): warning C4018: '<': signed/unsigned mismatch
+SoftmaxRegression.cpp(306): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
+SoftmaxRegression.cpp(316): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
+SoftmaxRegression.cpp(330): warning C4101: 'e': unreferenced local variable
+  TrainingSet.cpp
+TrainingSet.cpp(52): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating code
+c:\users\kuenj\documents\github\cv16-interface\classification\softmaxregression\inputimage.cpp(277): warning C4715: 'InputImage::oneHotIndexToChar': not all control paths return a value
+c:\users\kuenj\documents\github\cv16-interface\classification\softmaxregression\inputimage.cpp(252): warning C4715: 'InputImage::charToOneHotIndex': not all control paths return a value
+  All 1395 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  SoftmaxRegression.vcxproj -> C:\Users\kuenj\Documents\GitHub\cv16-interface\Classification\Release\SoftmaxRegression.exe
